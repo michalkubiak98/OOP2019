@@ -18,6 +18,8 @@ public class problem1 {
                                 className + " class. You want " + snacks +
                                 " snacks and it will cost you " + snacks*2 + " euro.");
 
+        //test
+
 
     }
 }
