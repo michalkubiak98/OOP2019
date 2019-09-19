@@ -28,7 +28,7 @@ public class problem2 {
 
 
 
-    public static boolean nameValidation(String name){
+    private static boolean nameValidation(String name){
 
         boolean validation = true;
         for(int i = 0; i<=name.length()-1; i++){
