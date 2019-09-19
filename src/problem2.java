@@ -19,6 +19,8 @@ public class problem2 {
                 validationMain=true;
                 System.out.println("You succesfully entered the name of the cyclist");
 
+
+
             } else {
                 System.out.println("You entered a digit in the name field, try again.");
                 validationMain=false;
