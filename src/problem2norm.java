@@ -15,11 +15,12 @@ public class problem2norm {
         int rate=0;
         if(distance<=10)
             rate = distance*7;
-        else
+        else {
             rate = 70+((distance-10)*10);
+        }
 
         System.out.println("name: "+ name + "\nDistance: "+
-                            "\nRate: "+ rate);
+                            "\nRate: "+ rate + "c");
         
 
 
