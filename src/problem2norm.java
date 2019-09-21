@@ -12,6 +12,14 @@ public class problem2norm {
         System.out.println("Enter distance: ");
         int distance = input.nextInt();
 
+        int rate=0;
+        if(distance<=10)
+            rate = distance*7;
+        else
+            rate = 70+((distance-10)*10);
+
+        System.out.println("name: "+ name + "\nDistance: "+
+                            "\nRate: "+ rate);
         
 
 
