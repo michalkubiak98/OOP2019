@@ -7,6 +7,7 @@ public class problem4 {
         String input ="";
         String whole = "";
 
+
         while(!input.equals("q")) {
 
             System.out.println("Enter number: ");
